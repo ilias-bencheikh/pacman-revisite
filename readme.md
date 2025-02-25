@@ -7,10 +7,15 @@ Pacman est contrôlé par les 4 flèches de direction... et c'est tout.
 ## Contributeur 
 
 BELHASSEN Rayan : rayan-belhassen@outlook.fr 
-BENCHEIKH Ilias : ilias.bencheikh@etu-u.paris.fr  
+
+BENCHEIKH Ilias : ilias.bencheikh@etu-u.paris.fr 
+
 CISSE Sekou : sekou.cisse@etu.u-paris.fr  
+
 AGRANE ADAM : adam-christophe.agrane-benlalam@etu.u-paris.fr 
+
 FERNEZ Dimitri : dimitri.fernez@etu.u-paris.fr
+
 CHETOUANI Bilal : chetouanibilal04@gmail.com
 
 Ce dépot est une importation de https://moule.informatique.univ-paris-diderot.fr/bencheik/pac-man-revisited.git
