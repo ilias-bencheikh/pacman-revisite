@@ -1,0 +1,19 @@
+Cahier des charges du Pacman :
+
+Fonctionnalités à implémenter :
+
+Lien du google doc :
+https://docs.google.com/document/d/1mGC_1sDgAYYwZYTuZSQt_Q32JTQp9_GEQqUrBY-sPLo/edit?usp=sharing
+
+- Fonctionnement des supers pacgoms comme dans le jeu d'origine
+- Amélioration visuelle de l'UI
+- Jeu en plein écran, support de multiples résolutions
+- Ajouts d'effets sonores et d'effets visuels pour rendre le gameplay plus satisfaisant
+- Ajout d'un leaderboard avec enregistrements des meilleurs scores
+- Correction des collisions 
+- Ajout de l'implémentation des IAS des fantômes
+- Ajout de plusieurs niveaux (combien est encore à définir)
+- Ajout d'un écran d'accueil animé
+- Animer l'UI ?
+
+Avoir un jeu fonctionnel d'ici le 7 Novembre avec simplement les fonctionnalités de base (ne pas se soucier encore de l'apparence).

@@ -1,0 +1,71 @@
+buildscript {
+    repositories {
+        gradlePluginPortal()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.github.johnrengelman:shadow:8.1.1'
+        classpath 'org.vafer:jdeb:1.10'
+    }
+}
+
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.10'
+    id 'java-library'
+    id 'edu.sc.seis.launch4j' version '3.0.5'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+}
+
+configurations {
+    testCompile
+}
+
+group 'fr.u-paris.informatique.cproj'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '5.10.0'
+    implementation 'org.json:json:20230618'
+    api 'io.github.typhon0:AnimateFX:1.2.4'
+}
+
+javafx {
+    version = "17.0.1"
+    modules = ['javafx.controls', 'javafx.media', 'javafx.base', 'javafx.graphics']
+}
+
+launch4j {
+    mainClassName = 'gui.App'
+    icon = "${projectDir}/src/main/resources/icon.ico"
+}
+
+application {
+    mainClassName = 'gui.App'
+}
+
+apply plugin: 'com.github.johnrengelman.shadow'
+apply plugin: 'java'
+
+jar {
+  manifest {
+   attributes 'Main-Class': 'gui.App'
+  }
+}
+
+shadowJar {
+    archiveBaseName.set("Pacman Dawn")
+    archiveVersion.set("1.0")
+    archiveClassifier.set("")
+    manifest {
+        attributes 'Main-Class': 'gui.App'
+    }
+    mergeServiceFiles()
+    zip64 true
+    configurations = [project.configurations.runtimeClasspath]
+}

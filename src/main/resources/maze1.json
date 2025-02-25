@@ -1,0 +1,38 @@
+{
+  "maze": [[
+    ["seVee", "hPipe", "hPipe", "swVee", "vPipe", "seVee", "hPipe", "hPipe", "hPipe", "swVee", "vPipe", "seVee", "hPipe", "hPipe", "swVee"],
+    ["vPipe", "eU", "swVee", "vPipe", "nU", "vPipe", "eU", "hPipe", "wU", "vPipe", "nU", "vPipe", "seVee", "wU", "vPipe"],
+    ["neVee", "swVee", "nU", "wTee", "hPipe", "sTee", "hPipe", "nTee", "hPipe", "sTee",  "hPipe", "eTee", "nU", "seVee", "nwVee"],
+    ["wU", "wTee", "hPipe", "eTee", "seVee", "hPipe", "wU", "vPipe", "eU", "hPipe",  "swVee", "wTee", "hPipe", "eTee", "eU"],
+    ["hPipe", "eTee", "sU", "vPipe", "vPipe", "seVee", "hPipe", "sTee", "hPipe", "swVee",  "vPipe", "vPipe", "sU", "wTee", "hPipe"],
+    ["wU", "vPipe", "vPipe", "vPipe", "vPipe", "vPipe", "seVee", "ghostHouseDoor", "swVee", "vPipe",  "vPipe", "vPipe", "vPipe", "vPipe", "eU"],
+    ["seVee", "nwVee", "vPipe", "vPipe", "nU", "vPipe", "neVee", "sTee", "nwVee", "vPipe",  "nU", "vPipe", "vPipe", "neVee", "swVee"],
+    ["vPipe", "eU", "nwVee", "wTee", "hPipe", "sTee", "hPipe", "hPipe", "hPipe", "sTee",  "hPipe", "eTee", "neVee", "wU", "vPipe"],
+    ["neVee", "nTee", "hPipe", "eTee", "seVee", "nTee", "nTee", "nTee", "nTee", "nTee",  "swVee", "wTee", "hPipe", "nTee", "nwVee"],
+    ["wU", "vPipe", "sU", "vPipe", "wTee", "open", "open", "open", "open", "open",  "eTee", "vPipe", "sU", "vPipe", "eU"],
+    ["hPipe", "eTee", "vPipe", "vPipe", "neVee", "sTee", "sTee", "sTee", "sTee", "sTee", "nwVee",  "vPipe", "vPipe", "wTee", "hPipe"],
+    ["wU", "vPipe", "nU", "wTee", "hPipe", "hPipe", "hPipe", "nTee", "hPipe", "hPipe",  "hPipe", "eTee", "nU", "vPipe", "eU"],
+    ["seVee", "sTee", "hPipe", "eTee", "seVee", "nTee", "swVee", "vPipe", "seVee", "nTee",  "swVee", "wTee", "hPipe", "sTee", "swVee"],
+    ["vPipe", "eU", "wU", "vPipe", "neVee", "sTee", "nwVee", "vPipe", "neVee", "sTee",  "nwVee", "vPipe", "eU", "wU", "vPipe"],
+    ["neVee", "hPipe", "hPipe", "sTee", "hPipe", "hPipe", "hPipe", "sTee", "hPipe", "hPipe", "hPipe", "sTee", "hPipe", "hPipe", "nwVee"]
+  ],
+  [
+    ["ENERGIZER", ".", ".", ".", "", ".", ".", "ENERGIZER", ".", ".", "", ".", ".", ".", "ENERGIZER"],
+    [".", "", "", ".", "", ".", "", "", "", ".", "", ".", "", "", "."],
+    [".", ".", "", ".", ".", ".", ".", ".", ".", ".", ".", ".", "", ".", "."],
+    ["", ".", ".", ".", "", "", "", ".", "", "", "", ".", ".", ".", ""],
+    [".", ".", "", ".", "", ".", ".", "", ".", ".", "", ".", "", ".", "."],
+    ["", ".", "", ".", "", ".", "", "", "", ".", "", ".", "", ".", ""],
+    [".", ".", "", ".", "", ".", "", "", "", ".", "", ".", "", ".", "."],
+    [".", "", "", ".", ".", ".", ".", ".", ".", ".", ".", ".", "", "", "."],
+    [".", ".", ".", ".", "", "", "", "", "", "", "", ".", ".", ".", "."],
+    ["", ".", "", ".", "", "", "", "", "", "", "", ".", "", ".", ""],
+    ["", ".", "", ".", "", "", "", "", "", "", "", ".", "", ".", ""],
+    ["", ".", "", ".", ".", ".", ".", ".", ".", ".", ".", ".", "", ".", ""],
+    [".", ".", ".", ".", "", "", "", ".", "", "", "", ".", ".", ".", "."],
+    [".", "", "", ".", "", "", "", ".", "", "", "", ".", "", "", "."],
+    ["ENERGIZER", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", ".", "ENERGIZER"]
+  ]
+    
+  ]
+}
